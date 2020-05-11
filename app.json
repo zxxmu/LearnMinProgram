@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/wishlist/wishlist"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "2号店",
+    "backgroundColor": "#B0C4DE",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home.png"
+      },
+      {
+        "pagePath": "pages/wishlist/wishlist",
+        "text": "心愿单",
+        "iconPath": "assets/tabbar/wishlist.png",
+        "selectedIconPath": "assets/tabbar/wishlist.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "我的",
+        "iconPath": "assets/tabbar/mypage.png",
+        "selectedIconPath": "assets/tabbar/mypage.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap60.json"
+}
